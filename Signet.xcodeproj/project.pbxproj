@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BCA95F24136BA700502F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA95E24136BA700502F1A /* AppDelegate.swift */; };
+		32BCA96124136BA700502F1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA96024136BA700502F1A /* SceneDelegate.swift */; };
+		32BCA96324136BA700502F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA96224136BA700502F1A /* ViewController.swift */; };
+		32BCA96624136BA700502F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCA96424136BA700502F1A /* Main.storyboard */; };
+		32BCA96824136BA800502F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BCA96724136BA800502F1A /* Assets.xcassets */; };
+		32BCA96B24136BA800502F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCA96924136BA800502F1A /* LaunchScreen.storyboard */; };
+		32BCA97624136BA800502F1A /* SignetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA97524136BA800502F1A /* SignetTests.swift */; };
+		32BCA98124136BA800502F1A /* SignetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCA98024136BA800502F1A /* SignetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BCA97224136BA800502F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BCA95324136BA700502F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BCA95A24136BA700502F1A;
+			remoteInfo = Signet;
+		};
+		32BCA97D24136BA800502F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BCA95324136BA700502F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BCA95A24136BA700502F1A;
+			remoteInfo = Signet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32BCA95B24136BA700502F1A /* Signet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCA95E24136BA700502F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BCA96024136BA700502F1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32BCA96224136BA700502F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32BCA96524136BA700502F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BCA96724136BA800502F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BCA96A24136BA800502F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BCA96C24136BA800502F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCA97124136BA800502F1A /* SignetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCA97524136BA800502F1A /* SignetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignetTests.swift; sourceTree = "<group>"; };
+		32BCA97724136BA800502F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCA97C24136BA800502F1A /* SignetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCA98024136BA800502F1A /* SignetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignetUITests.swift; sourceTree = "<group>"; };
+		32BCA98224136BA800502F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BCA95824136BA700502F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA96E24136BA800502F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA97924136BA800502F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BCA95224136BA700502F1A = {
+			isa = PBXGroup;
+			children = (
+				32BCA95D24136BA700502F1A /* Signet */,
+				32BCA97424136BA800502F1A /* SignetTests */,
+				32BCA97F24136BA800502F1A /* SignetUITests */,
+				32BCA95C24136BA700502F1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BCA95C24136BA700502F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BCA95B24136BA700502F1A /* Signet.app */,
+				32BCA97124136BA800502F1A /* SignetTests.xctest */,
+				32BCA97C24136BA800502F1A /* SignetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BCA95D24136BA700502F1A /* Signet */ = {
+			isa = PBXGroup;
+			children = (
+				32BCA95E24136BA700502F1A /* AppDelegate.swift */,
+				32BCA96024136BA700502F1A /* SceneDelegate.swift */,
+				32BCA96224136BA700502F1A /* ViewController.swift */,
+				32BCA96424136BA700502F1A /* Main.storyboard */,
+				32BCA96724136BA800502F1A /* Assets.xcassets */,
+				32BCA96924136BA800502F1A /* LaunchScreen.storyboard */,
+				32BCA96C24136BA800502F1A /* Info.plist */,
+			);
+			path = Signet;
+			sourceTree = "<group>";
+		};
+		32BCA97424136BA800502F1A /* SignetTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BCA97524136BA800502F1A /* SignetTests.swift */,
+				32BCA97724136BA800502F1A /* Info.plist */,
+			);
+			path = SignetTests;
+			sourceTree = "<group>";
+		};
+		32BCA97F24136BA800502F1A /* SignetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BCA98024136BA800502F1A /* SignetUITests.swift */,
+				32BCA98224136BA800502F1A /* Info.plist */,
+			);
+			path = SignetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BCA95A24136BA700502F1A /* Signet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCA98524136BA800502F1A /* Build configuration list for PBXNativeTarget "Signet" */;
+			buildPhases = (
+				32BCA95724136BA700502F1A /* Sources */,
+				32BCA95824136BA700502F1A /* Frameworks */,
+				32BCA95924136BA700502F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signet;
+			productName = Signet;
+			productReference = 32BCA95B24136BA700502F1A /* Signet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BCA97024136BA800502F1A /* SignetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCA98824136BA800502F1A /* Build configuration list for PBXNativeTarget "SignetTests" */;
+			buildPhases = (
+				32BCA96D24136BA800502F1A /* Sources */,
+				32BCA96E24136BA800502F1A /* Frameworks */,
+				32BCA96F24136BA800502F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BCA97324136BA800502F1A /* PBXTargetDependency */,
+			);
+			name = SignetTests;
+			productName = SignetTests;
+			productReference = 32BCA97124136BA800502F1A /* SignetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BCA97B24136BA800502F1A /* SignetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCA98B24136BA800502F1A /* Build configuration list for PBXNativeTarget "SignetUITests" */;
+			buildPhases = (
+				32BCA97824136BA800502F1A /* Sources */,
+				32BCA97924136BA800502F1A /* Frameworks */,
+				32BCA97A24136BA800502F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BCA97E24136BA800502F1A /* PBXTargetDependency */,
+			);
+			name = SignetUITests;
+			productName = SignetUITests;
+			productReference = 32BCA97C24136BA800502F1A /* SignetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BCA95324136BA700502F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Riku;
+				TargetAttributes = {
+					32BCA95A24136BA700502F1A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32BCA97024136BA800502F1A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32BCA95A24136BA700502F1A;
+					};
+					32BCA97B24136BA800502F1A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32BCA95A24136BA700502F1A;
+					};
+				};
+			};
+			buildConfigurationList = 32BCA95624136BA700502F1A /* Build configuration list for PBXProject "Signet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BCA95224136BA700502F1A;
+			productRefGroup = 32BCA95C24136BA700502F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BCA95A24136BA700502F1A /* Signet */,
+				32BCA97024136BA800502F1A /* SignetTests */,
+				32BCA97B24136BA800502F1A /* SignetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BCA95924136BA700502F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCA96B24136BA800502F1A /* LaunchScreen.storyboard in Resources */,
+				32BCA96824136BA800502F1A /* Assets.xcassets in Resources */,
+				32BCA96624136BA700502F1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA96F24136BA800502F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA97A24136BA800502F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BCA95724136BA700502F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCA96324136BA700502F1A /* ViewController.swift in Sources */,
+				32BCA95F24136BA700502F1A /* AppDelegate.swift in Sources */,
+				32BCA96124136BA700502F1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA96D24136BA800502F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCA97624136BA800502F1A /* SignetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCA97824136BA800502F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCA98124136BA800502F1A /* SignetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BCA97324136BA800502F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BCA95A24136BA700502F1A /* Signet */;
+			targetProxy = 32BCA97224136BA800502F1A /* PBXContainerItemProxy */;
+		};
+		32BCA97E24136BA800502F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BCA95A24136BA700502F1A /* Signet */;
+			targetProxy = 32BCA97D24136BA800502F1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BCA96424136BA700502F1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCA96524136BA700502F1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BCA96924136BA800502F1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCA96A24136BA800502F1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BCA98324136BA800502F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BCA98424136BA800502F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BCA98624136BA800502F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Signet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.Signet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BCA98724136BA800502F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Signet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.Signet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32BCA98924136BA800502F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.SignetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signet.app/Signet";
+			};
+			name = Debug;
+		};
+		32BCA98A24136BA800502F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.SignetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signet.app/Signet";
+			};
+			name = Release;
+		};
+		32BCA98C24136BA800502F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.SignetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signet;
+			};
+			name = Debug;
+		};
+		32BCA98D24136BA800502F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.riku-ueda.SignetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BCA95624136BA700502F1A /* Build configuration list for PBXProject "Signet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCA98324136BA800502F1A /* Debug */,
+				32BCA98424136BA800502F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCA98524136BA800502F1A /* Build configuration list for PBXNativeTarget "Signet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCA98624136BA800502F1A /* Debug */,
+				32BCA98724136BA800502F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCA98824136BA800502F1A /* Build configuration list for PBXNativeTarget "SignetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCA98924136BA800502F1A /* Debug */,
+				32BCA98A24136BA800502F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCA98B24136BA800502F1A /* Build configuration list for PBXNativeTarget "SignetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCA98C24136BA800502F1A /* Debug */,
+				32BCA98D24136BA800502F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BCA95324136BA700502F1A /* Project object */;
+}
